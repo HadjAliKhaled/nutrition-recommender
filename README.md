@@ -99,26 +99,28 @@ Download your meal plan as a JSON file for future reference
 Use the nutritional information to track your daily intake
 
 📁 Project Structure
-
+---
 nutrition-recommender/
-├── data/                    # Data files (not included in repo)
-│   ├── RAW_recipes.csv              # Food.com recipes dataset
-│   └── en.openfoodfacts.org.products.tsv  # Open Food Facts dataset
-├── models/                  # Trained ML models
-├── src/                     # Source code
-│   ├── data_loader.py       # Data loading and preprocessing
-│   ├── ml_models.py         # Machine learning models
-│   ├── nlp_interface.py     # Natural language processing
-│   ├── meal_generator.py    # Meal plan generation
-│   └── utils.py            # Utility functions
-├── ui/                      # User interface
-│   ├── streamlit_app.py     # Main Streamlit application
-│   └── assets/              # UI assets (CSS, images)
-├── .gitignore              # Git ignore rules
-├── LICENSE                 # MIT License
-├── README.md               # Project documentation
-└── requirements.txt        # Python dependencies
+├── data/                             # Jeux de données (non inclus)
+│   ├── RAW_recipes.csv               # Dataset Food.com
+│   └── en.openfoodfacts.org.products.tsv
+├── models/                           # Modèles ML entraînés (persistés)
+├── src/
+│   ├── data_loader.py                # Chargement et prétraitement des données
+│   ├── ml_models.py                  # Modèles d'apprentissage automatique
+│   ├── nlp_interface.py              # Interface NLP (Ollama / Mistral)
+│   ├── meal_generator.py             # Génération des plans de repas
+│   └── utils.py                      # Fonctions utilitaires
+├── ui/
+│   ├── streamlit_app.py              # Application Streamlit principale
+│   └── assets/                       # CSS et images pour l'UI
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
 
+
+---
 
 🛠️ Technology Stack
 Backend Technologies
