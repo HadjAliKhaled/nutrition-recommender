@@ -76,6 +76,19 @@ Open Food Facts Dataset:
 Download from Kaggle
 Place en.openfoodfacts.org.products.tsv in the data/ directory
 
+1. **Food.com Recipes Dataset** 
+   - Download from: [Kaggle - Food.com Recipes](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions)
+   - File: `RAW_recipes.csv`
+   - Size: ~50MB
+   - Place in: `data/RAW_recipes.csv`
+
+2. **Open Food Facts Dataset**
+   - Download from: [Kaggle - Open Food Facts](https://www.kaggle.com/datasets/openfoodfacts/world-food-facts)
+   - File: `en.openfoodfacts.org.products.tsv`
+   - Size: ~1GB compressed
+   - Place in: `data/en.openfoodfacts.org.products.tsv`
+
+
 6.Run the application
 streamlit run ui/streamlit_app.py
 
